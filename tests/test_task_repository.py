@@ -87,3 +87,4 @@ class TestFiltrarPorPrioridade:
 
     def test_filtrar_case_insensitive(self):
         assert len(self.repositorio.filtrar_por_prioridade("alta")) == 2
+# 14 testes unitários implementados

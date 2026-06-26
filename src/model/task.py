@@ -14,3 +14,5 @@ class Task:
 
     def __repr__(self):
         return f"[{self.id}] {self.titulo} | Status: {self.status} | Prioridade: {self.prioridade}"
+
+# Modelo finalizado - versão 1.0

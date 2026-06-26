@@ -53,3 +53,5 @@ class TaskRepository:
     # FILTRO POR PRIORIDADE — Mudança de escopo
     def filtrar_por_prioridade(self, prioridade: str) -> list[Task]:
         return [t for t in self._tarefas if t.prioridade == prioridade.upper()]
+
+# Operação CREATE implementada
